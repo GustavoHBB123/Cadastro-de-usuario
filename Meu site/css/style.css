@@ -1,0 +1,231 @@
+body {
+    margin: 0;
+    background: radial-gradient(circle, #242052, #0b0d16);
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.inicio {
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    padding: 0 8%;
+}
+
+.texto {
+    max-width: 600px;
+}
+
+.volume {
+    color: #8d83ff;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 10px 0;
+}
+
+.info {
+    color: #aaa;
+    font-size: 18px;
+}
+
+.imagem img {
+    width: 300px;
+    border-radius: 10%;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.6);
+    transition: transform 0.3s ease;
+}
+
+.imagem img:hover {
+    transform: scale(1.05) translateY(-10px);
+}
+
+.imagem {
+    filter: drop-shadow(0px 0px 40px #5d4cff);
+}
+
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 25px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #8d83ff;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 25px 0;
+    z-index: 10;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #8d83ff;
+}
+
+.pagina {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 140px 30px 50px;
+}
+
+.pagina h1 {
+    color: #8d83ff;
+    font-size: 45px;
+}
+
+.pagina p {
+    color: #ddd;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.historia {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 140px 30px 60px;
+}
+
+.historia h1 {
+    font-size: 55px;
+    margin: 10px 0 30px;
+}
+
+.imagem-historia {
+    display: block;
+    height: 500px;
+    width: auto;
+    margin: 0 auto 50px;
+    border-radius: 15px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+    transition: transform 0.3s ease;
+}
+
+.imagem-historia:hover {
+    transform: scale(1.05) translateY(-10px);
+}
+
+.imagem-ep1 {
+    height: 600px;
+}
+
+.imagem-ep2 {
+    height: 600px;
+}
+
+.imagem-ep3 {
+    height: 500px;
+}
+
+.imagem-ep4 {
+    height: 500px;
+}
+
+.imagem-ep5 {
+    height: 500px;
+}
+
+.imagem-ep6 {
+    height: 500px;
+}
+
+.imagem-ep7 {
+    height: 500px;
+}
+
+.imagem-ep8 {
+    height: 600px;
+}
+
+.imagem-ep9 {
+    height: 500px;
+}
+
+.imagem-ep10 {
+    height: 600px;
+}
+
+.imagem-ep11 {
+    height: 600px;
+}
+
+.texto-historia {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #dddddd;
+}
+
+.texto-historia h2 {
+    color: #8d83ff;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.texto-historia p {
+    margin-bottom: 25px;
+}
+
+.proximo {
+    margin-top: 70px;
+    padding: 30px;
+    text-align: center;
+    border: 1px solid #3d386b;
+    border-radius: 15px;
+    background-color: rgba(36, 32, 82, 0.4);
+}
+
+.proximo p {
+    color: #aaa;
+}
+
+.proximo a {
+    display: inline-block;
+    padding: 12px 25px;
+    border-radius: 8px;
+    background-color: #5d4cff;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.proximo a:hover {
+    background-color: #8d83ff;
+}
